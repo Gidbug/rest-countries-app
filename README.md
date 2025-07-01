@@ -1,2 +1,2 @@
-# rest-countries--app
+# rest-countries-app
 A simple web app
