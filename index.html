@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rest Countries App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  
+  <header>
+    <h1>Rest Countries App</h1>
+  </header>
+
+  
+  <section id="controls">
+    <input type="text" id="search" placeholder="Search by country name..." />
+    <select id="regionFilter">
+      <option value="">All Regions</option>
+      <option value="Africa">Africa</option>
+      <option value="Americas">Americas</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+    <select id="sortPopulation">
+      <option value="">Sort by population</option>
+      <option value="asc">Low to High</option>
+      <option value="desc">High to Low</option>
+    </select>
+  </section>
+
+  
+  <section id="countryContainer"></section>
+
+
+  <section id="pagination">
+    <button id="loadMore">Load More</button>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2025 Firstname SURNAME | Powered by REST Countries API</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
