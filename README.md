@@ -19,7 +19,7 @@ A simple web app that fetches country data from the REST Countries API and displ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rest-countries-app.git
+   git clone https://github.com/Gidbug/rest-countries-app.git
    cd rest-countries-app
 
 ## 📸 Screenshot
